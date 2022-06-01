@@ -1,0 +1,77 @@
+/*Elementos comunes a todos los elementos */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+	box-sizing: border-box;
+}	
+
+body {
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+/*Estilos del sitio*/
+
+header {
+	background: #0066cc;
+	color: #ffffff;
+	padding: 0 1em;
+}
+
+.logo {
+	margin: 0.5em;
+}
+
+main {
+	margin: 2em;
+}
+
+h3 {
+	text-align: center;
+	margin: 1em;
+}
+
+p {
+	text-align: justify;
+	margin-bottom: 0.25em;
+}
+
+.decision {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+    border: 0;
+    margin: 2em;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #0066cc;
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6);
+}
+
+.agree {
+	transition: 0.5s;
+}
+
+.agree:hover {
+    background-color: green;
+}
+
+ .decline {
+	transition: 0.5s;
+ }
+
+.decline:hover {
+    background-color: red;
+}
